@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Тест МВД</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<!--<link rel="stylesheet" type="text/css" href="styles/app.css"> -->
+	<link rel="icon" href="img/icon.png" type="image/png">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+
+<header class="header_1">
+			<span class="text_logo1">ПРИ ПОДДЕРЖКЕ</span>
+			<span class="text_logo1">ДТ "КВАНТОРИУМ" Г.МАГНИТОГОРСК</span>
+			<span class="text_logo1">УПРАВЛЕНИЕ МВД РОССИИ ПО Г.МАГНИТОГОРСКУ </span>
+			<a href="https://74.мвд.рф" target="_blank" >
+				<img src="img/logo.png" class="logo">
+			</a>
+			<span class="text_logo">ТЕСТ ДЛЯ УЧЕНИКОВ</span>
+			<span class="text_logo">ШКОЛ-ИНТЕРНАТОВ </span>
+</header>
+
+<header class="header_2">
+	<div class="container">
+        <div class="header__inner">
+        	<p class="info">ПЕРЕД НАЧАЛОМ ТЕСТА ОЗНАКОМЬТЕСЬ С ВИДЕОРОЛИКОМ</p>
+		</div>
+
+	</div>
+	<a href="#test" class="start_test"><button  class="next">Начать</button></a>
+</header>
+
+	<div class="block left" id="test">
+		
+		<div class="text or">
+			<div class="items">
+				<span class ="titl">ДЕТСКИЙ АЛКОГОЛИЗМ. СТАТЬЯ 20.22 КоАП РФ</span>
+				<div class="greenline"></div>
+				<span class="tex">Нахождение в состоянии опьянения несовершеннолетних в возрасте до шестнадцати лет, либо потребление(распитие) ими алкогольной и спиртосодержащей продукции, либо потребление ими наркотических средств или психотропных веществ без назначения врачча, новых потенциально опасных психоактивных веществ или одурманивающих веществ.</span>
+				</span>
+				
+			</div>
+			<a href="#test1"><button  class="nexts">Далее</button></a>
+			
+		</div>
+		<div class="video">
+			<div class="vidram">
+				<video controls class="videos" autoplay> 
+					<source src="video/bottle.avi" type="video/mp4" >
+				</video>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="block" id="test1">
+		<div class="text gr">
+			<div class="items">
+				<span class="titl">МЕЛКОЕ ХИЩЕНИЕ. СТАТЬЯ 7.27 КоАП РФ</span>
+				<div class="orangeline"></div>
+				<span class="tex">Мелкое хищение чужого имущества, стоимоясть которого не превышает одну тысячу рублей, путём кражи, мошенничества, присвоения или растраты при отсутсвии признаков престплений Уголовного кодекса РФ</span>
+			</div>
+			<a href="#test2"><button  class="nexts">Далее</button></a>
+		</div>
+		<div class="video">
+			<div class="vidram">
+				<video controls class="videos" autoplay> 
+					<source src="video/bag.avi" type="video/mp4" >
+				</video>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="block left" id="test2">
+		
+		<div class="text">
+			<div class="items">
+				<span class="titl"></span>
+				<span class="tex"></span>
+				<a href="#test2"><button  class="nexts">Далее</button></a>
+			</div>
+		</div>
+		<div class="video">
+			<div class="vidram">
+				<video controls class="videos" autoplay> 
+					<source src="video/bottle.avi" type="video/mp4" >
+				</video>
+			</div>
+		</div>
+	</div> -->
+<div class="block1" id="test3">А теперь проверим, как ты изучил материал</div>
+<!--тест-->
+<div class="test">
+	<!-- <iframe src="quiz.html" width="90%" height="720" class="quiz-frame"></iframe> -->
+	<div class="wrapper">
+		<main class="main">
+			<div class="quiz__head">
+				<div class="head__content" id="head"></div>
+			</div>
+			<div class="quiz__body">
+				<div class="buttons">
+					<div class="buttons__content" id="buttons">
+						<button class="button">Default button</button><br>
+						<button class="button button_wrong">Wrong answer</button><br>
+						<button class="button button_correct">Correct answer</button><br>
+						<button class="button button_passive">Unclicked button</button><br>
+					</div>
+				</div>
+			</div>
+			<div class="quiz__footer">
+				<div class="footer__content" id="pages">0 / 0</div>
+			</div>
+		</main>
+	</div>
+	<script type="text/javascript" src="scripts/app.js"></script>
+</div>
+<!--первое всплывающее окно
+<div class = "start" id="st_btn" >
+        <button id="start" class="st_btn" >СТАРТ</button>
+</div>
+
+<div id="overlay" >
+    <div class="popup" >
+        <h2>Добро пожаловать, мой дорогой друг!</h2>
+        <video controls class="video_start" id="vid" autoplay> 
+			<source src="video/video_start.mp4." type="video/mp4" >
+		</video>
+        <button class="close" style="display:none" title="Закрыть" onclick="document.getElementById('overlay').style.display='none';"></button>
+    </div>
+</div>
+-->
+	
+<footer class="footer-distributed">
+	<div class="footer-left footer-text">
+		<p class="footer_text">Сайт разработан учениками ДТ "Кванториум" под руководством преподователей и директора ДТ "Кванториум":</p>
+		<p>Директор ДТ "Кванториум" Гебель Лола Викторовна.</p>
+		<p>Преподователь "IT-КВАНТУМ" Ярин Даинл Дмитриевич,</p>
+		<p>Преподователь "VR/AR-КВАНТУМ" Тарасова Анна Юрьевна</p>
+		<p>При поддержки МВД России по Челябинской области.</p>
+		<p><br>Кванториум &copy; 2022</p>
+	</div>
+	<div class="footer-right">
+		<a href="https://vk.com/kvantorium74" target="_blank"><img src="img/img_kvant.png" class="img_kvant"></a>
+		<a href="https://74.мвд.рф" target="_blank"><img src="img/logo.png" class="img_mvd"></a>
+	</div>
+</footer>
+</body>
+<script src="script/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+	$("a[href*='#']").on("click", function(e){
+	  var anchor = $(this);
+	  $('html, body').stop().animate({
+		scrollTop: $(anchor.attr('href')).offset().top
+	  }, 777);
+	  e.preventDefault();
+	  return false;
+	});
+  });
+  </script>
+</html>
